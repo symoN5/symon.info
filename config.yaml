@@ -1,0 +1,3 @@
+debug: true
+folder: /var/www
+port: 80

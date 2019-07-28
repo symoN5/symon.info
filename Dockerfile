@@ -1,3 +1,6 @@
-FROM nginx
-COPY ./ /usr/share/nginx/html
+FROM halverneus/static-file-server:latest
+COPY ./config.yaml /config.yml
+COPY ./ /var/www
+
+EXPOSE 80
 
